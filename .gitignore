@@ -92,6 +92,7 @@ env.bak/
 venv.bak/
 Lib/
 Scripts/
+tcl/
 
 # Spyder project settings
 .spyderproject
