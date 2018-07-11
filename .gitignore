@@ -90,8 +90,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-Lib
-Scripts
+Lib/
+Scripts/
 
 # Spyder project settings
 .spyderproject
