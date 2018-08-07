@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
-from rest.views import Clustering
+from rest.views import Clustering, price
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'clustering/', Clustering.as_view()),
+     path(r'price/', price.as_view()),
 ]
